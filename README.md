@@ -22,7 +22,7 @@ Start by cloning the project repository from GitHub to your local machine:
 
 ```bash
 git clone https://github.com/RaPanha/project_midterm_laravel11.git
-cd rapanha_midtern
+cd project_midterm_laravel11
 ```
 
 ### Step 2: Install Dependencies
@@ -48,5 +48,4 @@ Run the Laravel development server along with the npm environment to compile ass
 
 ```bash
 php artisan serve
-npm run dev
 ```
