@@ -15,3 +15,5 @@ Route::get('/product/index', [App\Http\Controllers\ProductController::class, 'in
 Route::get('/checkout', [App\Http\Controllers\AuthController::class, 'checkout'])->name('auth.checkout');
 Route::get('/product/detail', [App\Http\Controllers\ProductController::class, 'detail'])->name('product.detail');
 Route::get('/product/shop', [App\Http\Controllers\ProductController::class, 'shop'])->name('product.shop');
+
+Route::get('/');
