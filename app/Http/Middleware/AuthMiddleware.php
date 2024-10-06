@@ -24,7 +24,6 @@ class AuthMiddleware
         }
 
         if ($role && $request->user()->role !== $role) {
-            return redirect()->route('product.index');
         }
 
         return $next($request);

@@ -17,7 +17,7 @@ class AuthRepository implements IAuthRepository
         ]);
 
         if (Auth::attempt($fields)) {
-            // $request->session()->regenerate();
+            $request->session()->regenerate();
             return redirect()->route('product.index');
         }
 
